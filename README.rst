@@ -1,7 +1,8 @@
-Maybe you want to use a SKOS vocabulary as a JSON dictionary, where the key 
-is a skos:notation and the value is the skos:prefLabel. For example the
-[MARC Relators](http://id.loc.gov/vocabulary/relators.html) from the
-Library of Congress. skosdict is a simple tool tool that does that for you.
+Have you ever wanted to use a SKOS vocabulary as a JSON dictionary, where the key 
+is the familiar code (skos:notation) and the value is the human readable label (skos:prefLabel)?
+Is the SKOS available in JSON, but instead of idiomatic JSON its 
+[some unusable stew of URIs](http://dvcs.w3.org/hg/rdf/raw-file/default/rdf-json/index.html)? If you answered yes to either of these perhaps skosdict is for you.
+
     ./skosdict.py http://id.loc.gov/vocabulary/relators.rdf
     
     {
@@ -31,4 +32,4 @@ Library of Congress. skosdict is a simple tool tool that does that for you.
 
 Some examples are included in the examples sub-directory, as well as an
 update.py file to pull them down. If you know of a SKOS file that would be worth
-adding please add it :-)
+adding please add it, and send a pull request.
