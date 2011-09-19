@@ -9,5 +9,6 @@ setup(
     license          = 'http://creativecommons.org/licenses/publicdomain/',
     py_modules       = ['skosdict'],
     description      = "Turn a SKOS concept scheme into a JSON dictionary",
+    install_requires = ['rdflib'],
 )
 
