@@ -5,32 +5,32 @@ Is the SKOS available in JSON, but instead of idiomatic JSON its
 
     ./skosdict.py http://id.loc.gov/vocabulary/relators.rdf
 
-    ```javascript
-    {
-      "scl": "Sculptor", 
-      "cot": "Contestant-appellant", 
-      "ivr": "Interviewer", 
-      "pth": "Patent holder", 
-      "uvp": "University place", 
-      "lso": "Licensor", 
-      "drm": "Draftsman", 
-      "rth": "Research team head", 
-      "pta": "Patent applicant", 
-      "dln": "Delineator", 
-      "ldr": "Laboratory director", 
-      "mfr": "Manufacturer", 
-      "lse": "Licensee", 
-      "tch": "Teacher", 
-      "dbp": "Distribution place", 
-      "tcd": "Technical director", 
-      "ptt": "Plaintiff-appellant", 
-      "itr": "Instrumentalist", 
-      "scr": "Scribe", 
-      "cll": "Calligrapher", 
-      "mrb": "Marbler"
-      ...
-    }
-    ```
+```javascript
+{
+  "scl": "Sculptor", 
+  "cot": "Contestant-appellant", 
+  "ivr": "Interviewer", 
+  "pth": "Patent holder", 
+  "uvp": "University place", 
+  "lso": "Licensor", 
+  "drm": "Draftsman", 
+  "rth": "Research team head", 
+  "pta": "Patent applicant", 
+  "dln": "Delineator", 
+  "ldr": "Laboratory director", 
+  "mfr": "Manufacturer", 
+  "lse": "Licensee", 
+  "tch": "Teacher", 
+  "dbp": "Distribution place", 
+  "tcd": "Technical director", 
+  "ptt": "Plaintiff-appellant", 
+  "itr": "Instrumentalist", 
+  "scr": "Scribe", 
+  "cll": "Calligrapher", 
+  "mrb": "Marbler"
+  ...
+}
+```
 
 Some examples are included in the examples sub-directory, as well as an
 update.py file to pull them down. If you know of a SKOS file that would be worth
