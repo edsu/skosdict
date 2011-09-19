@@ -1,6 +1,6 @@
 Have you ever wanted to use a SKOS vocabulary as a JSON dictionary, where the key 
 is the familiar code (skos:notation) and the value is the human readable label (skos:prefLabel)?
-Is the SKOS available in JSON, but instead of idiomatic JSON its 
+Is the SKOS available in JSON, but instead of idiomatic JSON it's 
 [some unusable stew of URIs](http://dvcs.w3.org/hg/rdf/raw-file/default/rdf-json/index.html)? If you answered yes to either of these perhaps skosdict is for you.
 
     ./skosdict.py http://id.loc.gov/vocabulary/relators.rdf
