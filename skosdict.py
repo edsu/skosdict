@@ -27,9 +27,8 @@ def skosdict(url, lang="en"):
 
         # determine the code
         code = graph.value(concept, skos.notation)
-        # hack for loc vocabularies that currenctly lack skos:notation
         if not code:
-            code = concept.split("/")[-1]
+            continue
 
         # get the preferred language label, there could be more than one
         labels = list(graph.objects(concept, skos.prefLabel))
