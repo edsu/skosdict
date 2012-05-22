@@ -44,7 +44,7 @@ def skosdict(url, lang="en"):
 
 
 def skosjson(url, lang="en"):
-    return json.dumps(skosdict(url, lang), indent=2)
+    return json.dumps(skosdict(url, lang), sort_keys=True, indent=2)
 
 
 if __name__ == "__main__":
